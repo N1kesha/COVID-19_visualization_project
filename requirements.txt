@@ -3,7 +3,7 @@ altair
 sklearn
 pandas 
 numpy
-sklearn.linear_model 
+sklearn
 streamlit 
 seaborn 
 altair 
