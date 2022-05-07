@@ -1,2 +1,13 @@
 seaborn
 altair
+sklearn
+pandas 
+numpy
+sklearn.linear_model 
+streamlit 
+seaborn 
+altair 
+requests
+bs4 
+scipy.interpolate 
+plotly.express 
