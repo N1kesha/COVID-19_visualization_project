@@ -2,3 +2,4 @@ seaborn
 altair
 sklearn
 plotly
+xlrd
