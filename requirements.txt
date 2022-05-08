@@ -3,3 +3,6 @@ altair
 sklearn
 plotly
 xlrd
+bs4
+requests
+scipy
