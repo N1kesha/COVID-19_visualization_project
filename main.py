@@ -181,9 +181,8 @@ with st.echo(code_location='below'):
     df1 = df1[['Country', 'Lat', 'Long']]
     mortality_and_vaccinated_df = mortality_and_vaccinated_df.merge(df1, left_on='country', right_on='Country',
                                                                     how='left')
-    list1 = list(mortality_and_vaccinated_df['perc. of morbidity'])
-    m = interp1d([0, max(list1)], [5, 18])
-    circle_radius = m(list1)
+    morbid_list = list(mortality_and_vaccinated_df['perc. of morbidity'])
+    circle_radius = interp1d([0, max(morbid_list)], [5, 18])(morbid_list)
     fig = px.density_mapbox(mortality_and_vaccinated_df, lat='Lat', lon='Long', radius=circle_radius, zoom=0,
                             mapbox_style='open-street-map',
                             hover_name='country', hover_data=['perc. of morbidity'],
