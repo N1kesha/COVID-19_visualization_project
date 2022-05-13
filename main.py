@@ -199,6 +199,7 @@ with st.echo(code_location='below'):
     Data sources: 
     1) https://www.kaggle.com/datasets/digvijaysinhgohil/covid19-data-deaths-and-vaccinations?select=covid_data_cleaned.csv
     2) https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases
+    3) https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population
     """
 
 
