@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn import linear_model 
+#from sklearn import linear_model 
 import streamlit as st
 import seaborn as sns
 import altair as alt
