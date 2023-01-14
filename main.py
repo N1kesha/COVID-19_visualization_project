@@ -1,4 +1,4 @@
-!pip install streamlit, seaborn, scikit-learn
+pip install streamlit, seaborn, scikit-learn
 
 import pandas as pd
 import numpy as np
