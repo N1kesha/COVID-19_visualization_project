@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from scikit-learn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression
 import streamlit as st
 import seaborn as sns
 import altair as alt
