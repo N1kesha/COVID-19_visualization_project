@@ -1,6 +1,6 @@
 seaborn
 altair
-sklearn
+sklearn.linear_model
 plotly
 xlrd
 bs4
