@@ -1,6 +1,7 @@
 seaborn
 altair
 sklearn
+scikit-learn
 plotly
 xlrd
 bs4
